@@ -35,8 +35,8 @@
 const rockPaperScissors = function(rounds) {
     rounds = rounds || 3;
     const rps = ['rock', 'paper', 'scissors'];
-
     const outcomes = [];
+
     let permutate = function(roundsToGo, playedSoFar) {
         if (roundsToGo === 0) {
             outcomes.push(playedSoFar);
